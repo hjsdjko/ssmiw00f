@@ -1,0 +1,91 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/user-info",
+    "pages/yonghu/list",
+    "pages/yonghu/add-or-update",
+    "pages/yonghu/detail",
+    "pages/sijicihui/list",
+    "pages/sijicihui/add-or-update",
+    "pages/sijicihui/detail",
+    "pages/liujicihui/list",
+    "pages/liujicihui/add-or-update",
+    "pages/liujicihui/detail",
+    "pages/yicuoci/list",
+    "pages/yicuoci/add-or-update",
+    "pages/yicuoci/detail",
+    "pages/xuexibiji/list",
+    "pages/xuexibiji/add-or-update",
+    "pages/xuexibiji/detail",
+    "pages/qiandaodaka/list",
+    "pages/qiandaodaka/add-or-update",
+    "pages/qiandaodaka/detail",
+    "pages/storeup/list",
+    "pages/storeup/add-or-update",
+    "pages/storeup/detail",
+    "pages/messages/list",
+    "pages/messages/liuyan",
+    "pages/forum-index/forum-index",
+    "pages/forum-detail/forum-detail",
+    "pages/forum-reply/forum-reply",
+    "pages/forum-list/list",
+    "pages/forum-my/forum-my",
+    "pages/forum-add-or-update/forum-add-or-update",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "四六级词汇",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#FFFFFF",
+    "selectedColor": "#FF9000",
+    "borderStyle": "black",
+    "backgroundColor": "#93C107",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/sijicihui/list",
+        "iconPath": "/static/tabs/icon1.png",
+        "selectedIconPath": "/static/tabs/icon1_act.png",
+        "text": "四级词汇"
+      },
+      
+      {
+        "pagePath": "pages/yicuoci/list",
+        "iconPath": "/static/tabs/icon3.png",
+        "selectedIconPath": "/static/tabs/icon3_act.png",
+        "text": "易错词"
+      },
+      {
+        "pagePath": "pages/forum-index/forum-index",
+        "iconPath": "static/tabs/type.png",
+        "selectedIconPath": "static/tabs/type1.png",
+        "text": "论坛中心"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  },
+  "sitemapLocation": "sitemap.json"
+}
